@@ -1,6 +1,6 @@
 body {
   margin: 40px;
-  background-color: rgba(119, 119, 119, 0.65);
+  background-color: #fefefe;
   font-family: 'Roboto', sans-serif;
   color: #333;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 #borders {
-    box-shadow: 0px 0px 10px 10px rgba(119, 114, 114, 0.25);
+    box-shadow: 0px 0px 30px 2px rgba(119, 114, 114, 0.25);
 }
 
 table {
