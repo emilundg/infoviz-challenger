@@ -15,6 +15,9 @@ body {
   background-color: white;
   border-radius: 5px;
   padding: 25px;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
