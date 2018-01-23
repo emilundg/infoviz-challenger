@@ -2,6 +2,7 @@ body {
   margin: 40px;
   background-color: #fefefe;
   font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 #poster {
@@ -20,6 +21,12 @@ body {
   text-align: center;
   grid-column: 1/ last;
 }
+
+.mid {
+  text-align: center;
+  grid-column: 1/ last;
+}
+
 
 .footer {
   text-align: center;
