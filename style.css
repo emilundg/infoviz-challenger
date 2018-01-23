@@ -8,7 +8,7 @@ body {
 #poster {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr [last];
+  grid-template-columns: 1fr 1fr [last];
 }
 
 .box {
@@ -23,7 +23,7 @@ body {
 .borderbox {
   text-align: left;
   grid-column: 1/ last;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 .header {
@@ -45,6 +45,11 @@ body {
 .center {
   font-size: 2em;
 
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img {
@@ -89,6 +94,13 @@ polygon {
 .right {
   grid-column: 3;
 }
+
+hr {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .btn {
   color: #eeeeee;
