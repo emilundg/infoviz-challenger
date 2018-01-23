@@ -1,16 +1,17 @@
 body {
   margin: 40px;
   background-color: #fefefe;
+  font-family: 'Roboto', sans-serif;
 }
 
 #poster {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr [last];
+  grid-template-columns: 1fr [last];
 }
 
 .box {
-  background-color: lavender;
+  background-color: white;
   border-radius: 5px;
   padding: 25px;
 }
