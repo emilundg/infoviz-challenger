@@ -1,0 +1,82 @@
+body {
+  margin: 40px;
+  background-color: #fefefe;
+}
+
+#poster {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr [last];
+}
+
+.box {
+  background-color: lavender;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.header {
+  text-align: center;
+  grid-column: 1/ last;
+}
+
+.footer {
+  text-align: center;
+  grid-column: 1/ last;
+}
+
+.center {
+  font-size: 2em;
+
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+  height: 250px;
+  border: solid;
+}
+
+ellipse {
+  fill: antiquewhite;
+  stroke: purple;
+  stroke-width: 2;
+}
+
+rect {
+  fill: darksalmon;
+  stroke: blue;
+  stroke-width: 2;
+}
+
+polygon {
+  fill: khaki;
+  stroke:indigo;
+}
+
+.long {
+  grid-row: 2 / 4;
+}
+
+.button {
+  grid-column: 2 ;
+}
+
+.left1, left2 {
+  grid-column: 1 ;
+}
+
+.right {
+  grid-column: 3;
+}
+
+.btn {
+  color: #eeeeee;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
